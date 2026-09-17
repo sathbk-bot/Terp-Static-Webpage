@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Evolution of Sorting Algorithms</title>
     <link rel="icon" href="logo.svg" type="image/svg+xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;display=swap"
       rel="stylesheet"
@@ -198,16 +196,6 @@
           height="315"
           src="https://www.youtube.com/embed/kPRA0W1kECg"
           title="15 Sorting Algorithms in 6 Minutes"
-          allow="
-            accelerometer;
-            autoplay;
-            clipboard-write;
-            encrypted-media;
-            gyroscope;
-            picture-in-picture;
-            web-share;
-          "
-          referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         >
         </iframe>
