@@ -1,174 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Evolution of Sorting Algorithms</title>
-    <link rel="icon" href="logo.svg" type="image/svg+xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css">
-</head>
+    <link rel="icon" href="logo.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <div class="required-information">
-        <strong>Name: </strong>Sathvik Bhuvanesh Kumar<br>
-        <strong>Render Site: </strong>
-        <a href="https://your-render-site.onrender.com">https://your-render-site.onrender.com</a><br>
-        <strong>Last Modified: </strong><!--#echo var="LAST_MODIFIED" --><br>
+      <strong>Name: </strong>Sathvik Bhuvanesh Kumar<br />
+      <strong>Render Site: </strong>
+      <a href="https://terp-static-webpage.onrender.com/"
+        >https://terp-static-webpage.onrender.com/</a
+      ><br />
+      <strong>Last Modified: </strong
+      ><!--#echo var="LAST_MODIFIED" --><br />
     </div>
 
     <main id="page-content">
-        <header>
-            <p class="array">[8, 3, 6, 1] &rarr; [1, 3, 6, 8]</p>
-            <h1>The Evolution of Sorting Algorithms</h1>
-            <p>Different strategies for turning unordered data into useful information.</p>
-        </header>
+      <header>
+        <p class="array">[8, 3, 6, 1] &rarr; [1, 3, 6, 8]</p>
+        <h1>The Evolution of Sorting Algorithms</h1>
+        <p>
+          Different strategies for turning unordered data into useful
+          information.
+        </p>
+      </header>
 
-        <section>
-            <h2>Why Sorting Matters</h2>
-            <p>
-                Sorting places data into a meaningful order. Once information is sorted,
-                searching, comparing, and displaying it can become much easier. The best
-                algorithm depends on the size, type, and existing order of the data.
-            </p>
-        </section>
+      <section>
+        <h2>Why Sorting Matters</h2>
+        <p>
+          Sorting places data into a meaningful order. Once information is
+          sorted, searching, comparing, and displaying it can become much
+          easier. The best algorithm depends on the size, type, and existing
+          order of the data.
+        </p>
+      </section>
 
-        <section>
-            <h2>Six Important Approaches</h2>
+      <section>
+        <h2>Six Important Approaches</h2>
 
-            <article class="algorithm">
-                <h3>QuickSort</h3>
-                <p>
-                    QuickSort selects a pivot, separates smaller and larger values, and
-                    repeats the process on each partition. It is often fast for in-memory
-                    data, but poor pivot choices can produce its quadratic worst case.
-                </p>
-            </article>
+        <article class="algorithm">
+          <h3>QuickSort</h3>
+          <p>
+            QuickSort selects a pivot, separates smaller and larger values, and
+            repeats the process on each partition. It is often fast for
+            in-memory data, but poor pivot choices can produce its quadratic
+            worst case.
+          </p>
+        </article>
 
-            <article class="algorithm">
-                <h3>MergeSort</h3>
-                <p>
-                    MergeSort divides data into smaller pieces, sorts those pieces, and
-                    merges them back together. Its running time is predictable, and its
-                    stable behavior is useful when equal values must keep their order.
-                </p>
-            </article>
+        <article class="algorithm">
+          <h3>MergeSort</h3>
+          <p>
+            MergeSort divides data into smaller pieces, sorts those pieces, and
+            merges them back together. Its running time is predictable, and its
+            stable behavior is useful when equal values must keep their order.
+          </p>
+        </article>
 
-            <article class="algorithm">
-                <h3>Radix Sort</h3>
-                <p>
-                    Radix Sort groups values by individual digits or positions instead of
-                    comparing pairs of values. It works well for integers and other keys
-                    with a fixed representation.
-                </p>
-            </article>
+        <article class="algorithm">
+          <h3>Radix Sort</h3>
+          <p>
+            Radix Sort groups values by individual digits or positions instead
+            of comparing pairs of values. It works well for integers and other
+            keys with a fixed representation.
+          </p>
+        </article>
 
-            <article class="algorithm">
-                <h3>HeapSort</h3>
-                <p>
-                    HeapSort arranges the data into a heap, repeatedly removes the largest
-                    value, and places it into its final position. It provides reliable
-                    performance while using very little extra memory.
-                </p>
-            </article>
+        <article class="algorithm">
+          <h3>HeapSort</h3>
+          <p>
+            HeapSort arranges the data into a heap, repeatedly removes the
+            largest value, and places it into its final position. It provides
+            reliable performance while using very little extra memory.
+          </p>
+        </article>
 
-            <article class="algorithm">
-                <h3>Counting Sort</h3>
-                <p>
-                    Counting Sort records how many times each value occurs and uses those
-                    counts to rebuild the data in order. It is useful when the input contains
-                    integers from a reasonably small range.
-                </p>
-            </article>
+        <article class="algorithm">
+          <h3>Counting Sort</h3>
+          <p>
+            Counting Sort records how many times each value occurs and uses
+            those counts to rebuild the data in order. It is useful when the
+            input contains integers from a reasonably small range.
+          </p>
+        </article>
 
-            <article class="algorithm">
-                <h3>Bubble Sort</h3>
-                <p>
-                    Bubble Sort repeatedly compares neighboring values and swaps them when
-                    they are out of order. It is easy to understand, but it becomes inefficient
-                    as the amount of data grows.
-                </p>
-            </article>
-        </section>
+        <article class="algorithm">
+          <h3>Bubble Sort</h3>
+          <p>
+            Bubble Sort repeatedly compares neighboring values and swaps them
+            when they are out of order. It is easy to understand, but it becomes
+            inefficient as the amount of data grows.
+          </p>
+        </article>
+      </section>
 
-        <section>
-            <h2>Big-O Complexity Cheat Sheet</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Algorithm</th>
-                        <th>Best Time</th>
-                        <th>Average Time</th>
-                        <th>Worst Time</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>QuickSort</td>
-                        <td>O(n log n)</td>
-                        <td>O(n log n)</td>
-                        <td>O(n<sup>2</sup>)</td>
-                    </tr>
-                    <tr>
-                        <td>MergeSort</td>
-                        <td>O(n log n)</td>
-                        <td>O(n log n)</td>
-                        <td>O(n log n)</td>
-                    </tr>
-                    <tr>
-                        <td>Radix Sort</td>
-                        <td>O(nd)</td>
-                        <td>O(nd)</td>
-                        <td>O(nd)</td>
-                    </tr>
-                    <tr>
-                        <td>HeapSort</td>
-                        <td>O(n log n)</td>
-                        <td>O(n log n)</td>
-                        <td>O(n log n)</td>
-                    </tr>
-                    <tr>
-                        <td>Counting Sort</td>
-                        <td>O(n + k)</td>
-                        <td>O(n + k)</td>
-                        <td>O(n + k)</td>
-                    </tr>
-                    <tr>
-                        <td>Bubble Sort</td>
-                        <td>O(n)</td>
-                        <td>O(n<sup>2</sup>)</td>
-                        <td>O(n<sup>2</sup>)</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p class="notation">
-                <strong>Notation:</strong> n is the number of values, d is the number of
-                digit passes, and k is the range of values.
-            </p>
-        </section>
+      <section>
+        <h2>Big-O Complexity Cheat Sheet</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Algorithm</th>
+              <th>Best Time</th>
+              <th>Average Time</th>
+              <th>Worst Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>QuickSort</td>
+              <td>O(n log n)</td>
+              <td>O(n log n)</td>
+              <td>O(n<sup>2</sup>)</td>
+            </tr>
+            <tr>
+              <td>MergeSort</td>
+              <td>O(n log n)</td>
+              <td>O(n log n)</td>
+              <td>O(n log n)</td>
+            </tr>
+            <tr>
+              <td>Radix Sort</td>
+              <td>O(nd)</td>
+              <td>O(nd)</td>
+              <td>O(nd)</td>
+            </tr>
+            <tr>
+              <td>HeapSort</td>
+              <td>O(n log n)</td>
+              <td>O(n log n)</td>
+              <td>O(n log n)</td>
+            </tr>
+            <tr>
+              <td>Counting Sort</td>
+              <td>O(n + k)</td>
+              <td>O(n + k)</td>
+              <td>O(n + k)</td>
+            </tr>
+            <tr>
+              <td>Bubble Sort</td>
+              <td>O(n)</td>
+              <td>O(n<sup>2</sup>)</td>
+              <td>O(n<sup>2</sup>)</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="notation">
+          <strong>Notation:</strong> n is the number of values, d is the number
+          of digit passes, and k is the range of values.
+        </p>
+      </section>
 
-        <section>
-            <h2>See and Hear Sorting</h2>
-            <iframe class="video"
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/kPRA0W1kECg"
-                    title="15 Sorting Algorithms in 6 Minutes"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen>
-            </iframe>
-            <p>
-                If the embedded video does not load, watch
-                <a href="https://www.youtube.com/watch?v=kPRA0W1kECg">15 Sorting Algorithms in 6 Minutes on YouTube</a>.
-            </p>
-        </section>
+      <section>
+        <h2>See and Hear Sorting</h2>
+        <iframe
+          class="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/kPRA0W1kECg"
+          title="15 Sorting Algorithms in 6 Minutes"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        >
+        </iframe>
+        <p>
+          If the embedded video does not load, watch
+          <a href="https://www.youtube.com/watch?v=kPRA0W1kECg"
+            >15 Sorting Algorithms in 6 Minutes on YouTube</a
+          >.
+        </p>
+      </section>
 
-        <footer>
-            <p>Created for CMSC335</p>
-        </footer>
+      <footer>
+        <p>Created for CMSC335</p>
+      </footer>
     </main>
-</body>
+  </body>
 </html>
