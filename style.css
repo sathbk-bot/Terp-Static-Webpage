@@ -1,0 +1,133 @@
+:root {
+    --page-background: #07111f;
+    --panel-background: rgba(9, 20, 38, 0.94);
+    --cyan: #69d7ff;
+    --violet: #a78bfa;
+    --white: #f4f7ff;
+    --light-row: #dcecff;
+    --dark-row: #b9d5ee;
+    --table-text: #07111f;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--page-background);
+    background-image: url("sorting-network-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--white);
+    font-family: "Fira Code", monospace;
+    margin: 0;
+    padding: 2rem;
+}
+
+.required-information,
+#page-content {
+    background-color: var(--panel-background);
+    border: 0.15rem solid var(--cyan);
+    margin: 0 auto 1.5rem auto;
+    max-width: 62rem;
+    padding: 1.25rem 2rem;
+}
+
+.required-information {
+    line-height: 1.8;
+}
+
+header {
+    border-bottom: 0.15rem solid var(--cyan);
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--cyan);
+}
+
+h1 {
+    font-size: 2.35rem;
+}
+
+h2 {
+    border-bottom: 0.1rem solid var(--violet);
+    padding-bottom: 0.4rem;
+}
+
+h3 {
+    margin-bottom: 0.35rem;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+.array {
+    color: var(--violet);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.algorithm {
+    border-left: 0.25rem solid var(--violet);
+    margin: 1.25rem 0;
+    padding: 0.15rem 1rem;
+}
+
+a {
+    color: var(--cyan);
+}
+
+a:hover {
+    color: var(--violet);
+}
+
+table {
+    border-collapse: collapse;
+    color: var(--table-text);
+    margin: 1rem auto;
+    width: 100%;
+}
+
+th,
+td {
+    border: 0.1rem solid var(--table-text);
+    padding: 0.75rem;
+    text-align: left;
+}
+
+thead {
+    background-color: var(--violet);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--light-row);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--dark-row);
+}
+
+.notation {
+    font-size: 0.85rem;
+}
+
+.video {
+    border: 0.15rem solid var(--violet);
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+}
+
+footer {
+    border-top: 0.15rem solid var(--cyan);
+    font-style: italic;
+    margin-top: 2rem;
+    text-align: center;
+}
