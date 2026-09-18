@@ -50,7 +50,7 @@ h2 {
 }
 
 h3 {
-  margin-bottom: 0.35rem;
+  margin: 0 0 0.35rem;
 }
 
 section {
@@ -64,9 +64,18 @@ section {
 }
 
 .algorithm {
-  border-left: 0.25rem solid #a78bfa;
   margin: 1.25rem 0;
-  padding: 0.15rem 1rem;
+  padding: 0.15rem 1rem 0.15rem 3rem;
+  position: relative;
+}
+
+.algorithm-number {
+  color: #a78bfa;
+  font-size: 1.1rem;
+  font-weight: bold;
+  left: 0.75rem;
+  position: absolute;
+  top: 0.15rem;
 }
 
 a {

@@ -47,6 +47,7 @@
         <h2>Eight Important Approaches</h2>
 
         <article class="algorithm">
+          <span class="algorithm-number">1</span>
           <h3>QuickSort</h3>
           <p>
             QuickSort selects a pivot, separates smaller and larger values, and
@@ -57,6 +58,7 @@
         </article>
 
         <article class="algorithm">
+          <span class="algorithm-number">2</span>
           <h3>MergeSort</h3>
           <p>
             MergeSort divides data into smaller pieces, sorts those pieces, and
@@ -66,6 +68,7 @@
         </article>
 
         <article class="algorithm">
+          <span class="algorithm-number">3</span>
           <h3>Radix Sort</h3>
           <p>
             Radix Sort groups values by individual digits or positions instead
@@ -75,6 +78,7 @@
         </article>
 
         <article class="algorithm">
+          <span class="algorithm-number">4</span>
           <h3>HeapSort</h3>
           <p>
             HeapSort arranges the data into a heap, repeatedly removes the
@@ -84,6 +88,7 @@
         </article>
 
         <article class="algorithm">
+          <span class="algorithm-number">5</span>
           <h3>Counting Sort</h3>
           <p>
             Counting Sort records how many times each value occurs and uses
@@ -93,6 +98,7 @@
         </article>
 
         <article class="algorithm">
+          <span class="algorithm-number">6</span>
           <h3>Bubble Sort</h3>
           <p>
             Bubble Sort repeatedly compares neighboring values and swaps them
@@ -102,6 +108,7 @@
         </article>
 
         <article class="algorithm">
+          <span class="algorithm-number">7</span>
           <h3>Insertion Sort</h3>
           <p>
             Insertion Sort builds a sorted section one value at a time. Each
@@ -111,6 +118,7 @@
         </article>
 
         <article class="algorithm">
+          <span class="algorithm-number">8</span>
           <h3>Selection Sort</h3>
           <p>
             Selection Sort repeatedly finds the smallest remaining value and
