@@ -14,13 +14,26 @@
 
   <body>
     <div class="required-information">
-      <strong>Name: </strong>Sathvik Bhuvanesh Kumar<br />
-      <strong>Render Site: </strong>
-      <a href="https://terp-static-webpage.onrender.com/"
-        >https://terp-static-webpage.onrender.com/</a
-      ><br />
-      <strong>Last Modified: </strong
-      ><!--#echo var="LAST_MODIFIED" --><br />
+      <header>
+        <h1>Render Static Site</h1>
+      </header>
+
+      <p><strong>Name: </strong>Sathvik Bhuvanesh Kumar</p>
+
+      <p>
+        <strong>GitHub Location: </strong>
+        <a href="https://github.com/sathbk-bot/Terp-Static-Webpage"
+          >https://github.com/sathbk-bot/Terp-Static-Webpage</a
+        >
+      </p>
+
+      <p>
+        <strong>Terpconnect Location: </strong>
+        <a
+          href="https://www.terpconnect.umd.edu/~sathbk/terpconnect_static_site/"
+          >https://www.terpconnect.umd.edu/~sathbk/terpconnect_static_site/</a
+        >
+      </p>
     </div>
 
     <main id="page-content">
@@ -214,7 +227,6 @@
           >.
         </p>
       </section>
-
     </main>
   </body>
 </html>
