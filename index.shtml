@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="style.css?v=2" type="text/css" />
   </head>
 
   <body>
@@ -111,9 +111,9 @@
           <span class="algorithm-number">7</span>
           <h3>Insertion Sort</h3>
           <p>
-            Insertion Sort builds a sorted section one value at a time. Each
-            new value is moved left until it reaches its correct position. It
-            works especially well for small or nearly sorted collections.
+            Insertion Sort builds a sorted section one value at a time. Each new
+            value is moved left until it reaches its correct position. It works
+            especially well for small or nearly sorted collections.
           </p>
         </article>
 
@@ -170,24 +170,24 @@
               <td>O(n + k)</td>
               <td>O(n + k)</td>
             </tr>
-              <tr>
-                <td>Bubble Sort</td>
-                <td>O(n)</td>
-                <td>O(n<sup>2</sup>)</td>
-                <td>O(n<sup>2</sup>)</td>
-              </tr>
-              <tr>
-                <td>Insertion Sort</td>
-                <td>O(n)</td>
-                <td>O(n<sup>2</sup>)</td>
-                <td>O(n<sup>2</sup>)</td>
-              </tr>
-              <tr>
-                <td>Selection Sort</td>
-                <td>O(n<sup>2</sup>)</td>
-                <td>O(n<sup>2</sup>)</td>
-                <td>O(n<sup>2</sup>)</td>
-              </tr>
+            <tr>
+              <td>Bubble Sort</td>
+              <td>O(n)</td>
+              <td>O(n<sup>2</sup>)</td>
+              <td>O(n<sup>2</sup>)</td>
+            </tr>
+            <tr>
+              <td>Insertion Sort</td>
+              <td>O(n)</td>
+              <td>O(n<sup>2</sup>)</td>
+              <td>O(n<sup>2</sup>)</td>
+            </tr>
+            <tr>
+              <td>Selection Sort</td>
+              <td>O(n<sup>2</sup>)</td>
+              <td>O(n<sup>2</sup>)</td>
+              <td>O(n<sup>2</sup>)</td>
+            </tr>
           </tbody>
         </table>
         <p class="notation">
@@ -215,9 +215,6 @@
         </p>
       </section>
 
-      <footer>
-        <p>Created for CMSC335</p>
-      </footer>
     </main>
   </body>
 </html>

@@ -122,10 +122,3 @@ tbody tr:nth-child(even) {
   margin: 1rem auto;
   max-width: 100%;
 }
-
-footer {
-  border-top: 0.15rem solid var(--main-color);
-  font-style: italic;
-  margin-top: 2rem;
-  text-align: center;
-}
