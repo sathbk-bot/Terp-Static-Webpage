@@ -6,9 +6,9 @@ body {
   --main-color: #69d7ff;
   background-color: #07111f;
   background-image: url("sorting-network-background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center top;
+  background-repeat: repeat-y;
+  background-size: 100% auto;
   color: white;
   font-family: "Fira Code", monospace;
   margin: 0;
